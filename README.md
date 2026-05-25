@@ -96,7 +96,7 @@ GhanaFarmManager/
 - **API endpoints** are poultry-focused with proper validation
 - See [.gitignore](.gitignore) for excluded files
 
-## 📋 Environment Variables
+##  Environment Variables
 
 See [backend/.env.example](backend/.env.example) for required configuration.
 
