@@ -1,0 +1,37 @@
+Poultry Assistant Checklist
+
+1. Backend API
+- Confirm /dashboard returns total livestock, alerts, and weather summary.
+- Confirm /livestock returns poultry records only.
+- Confirm /pens supports poultry pen creation and listing.
+- Confirm /vaccination-schedule returns the standard poultry vaccine schedule.
+- Confirm /feed-schedule returns the standard poultry feed schedule.
+- Confirm /egg-forecast returns layer forecast results.
+- Confirm /vet-advice returns guidance based on symptoms.
+- Confirm /health endpoint reports service availability.
+
+2. Frontend UI
+- Ensure the sidebar works on mobile and desktop.
+- Ensure dashboard layout switches to a vertical stack on smaller screens.
+- Ensure Health tab renders vaccination schedule, feed schedule, and egg forecast.
+- Ensure vet advice form submits and displays recommendations.
+- Remove any remaining emoji-only UI elements.
+- Ensure loading and error states display cleanly.
+
+3. Poultry domain enforcement
+- Validate livestock types: broiler, layer.
+- Validate pen type: poultry only.
+- Enforce poultry-only naming and labels across the app.
+
+4. Feature polish
+- Add vaccination reminders or alerts.
+- Add feed planning guidance.
+- Add egg production forecasting for mature layers.
+- Add vet guidance for common poultry symptoms.
+- Ensure components are responsive across mobile, tablet, and desktop.
+
+5. Testing
+- Test the frontend against the backend endpoints.
+- Test mobile layout in browser dev tools.
+- Test form submissions and result rendering.
+- Test backend startup and API health check.

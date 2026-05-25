@@ -1,0 +1,43 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+frontend/dist/
+backend/*.db
+
+# Logs
+npm-debug.log
+pip-debug.log
+*.log
+
+# Temporary files
+*.tmp
+.cache/
+
+# Database files (except schema/migrations)
+*.sqlite
+*.sqlite3
