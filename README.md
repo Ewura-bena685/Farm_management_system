@@ -2,7 +2,7 @@
 
 A premium full-stack farm management application focused on poultry operations. Features real-time climate monitoring, disease alerts, livestock tracking, health management, and mobile money (MoMo) payment integration.
 
-## 🌾 Features
+##  Features
 
 - **Poultry Dashboard** - Real-time inventory and capacity monitoring
 - **Climate Monitoring** - Weather alerts, rainy season forecasts, dry spell warnings
@@ -11,7 +11,7 @@ A premium full-stack farm management application focused on poultry operations. 
 - **Financial Management** - MoMo payment integration and cash flow tracking
 - **Responsive Design** - Premium AgTech UI with Tailwind CSS
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 GhanaFarmManager/
@@ -31,7 +31,7 @@ GhanaFarmManager/
 └── docs/               # Documentation & resources
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Backend Setup
 
@@ -89,7 +89,7 @@ GhanaFarmManager/
    npm run build
    ```
 
-## 🔐 Security
+##  Security
 
 - **.env files are never committed** - Use `.env.example` as a template
 - **Database credentials** are stored locally in `.env`
@@ -108,7 +108,7 @@ mysql -u root -p
 CREATE DATABASE ghana_farm_db;
 ```
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 **Backend**
 - Python 3.11+
@@ -124,37 +124,20 @@ CREATE DATABASE ghana_farm_db;
 - Axios
 - Lucide React (icons)
 
-## 📦 Dependencies
 
-See [backend/requirements.txt](backend/requirements.txt) and [frontend/package.json](frontend/package.json)
 
-## 🐛 Troubleshooting
-
-**Backend won't start?**
-- Check MySQL is running: `mysql -u root -p`
-- Verify database exists: `CREATE DATABASE ghana_farm_db;`
-- Check .env credentials match your MySQL setup
-
-**Frontend won't build?**
-- Clear `node_modules`: `rm -rf node_modules && npm install`
-- Clear Vite cache: `rm -rf .vite`
-
-**API errors?**
-- Ensure backend is running on `http://localhost:8001`
-- Check browser console for network issues
-
-## 📝 License
+##  License
 
 This project is open source and available under the MIT License.
 
-## 👤 Author
+##  Author
 
 [Ewura-bena685](https://github.com/Ewura-bena685)
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ---
 
-**Built with ❤️ for Ghana's agricultural sector**
+**Built with love for Ghana's agricultural sector**
